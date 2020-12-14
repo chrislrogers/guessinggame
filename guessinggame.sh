@@ -3,7 +3,7 @@
 # The user can change the higher number using the parameter $1 e.g. "./guessinggame.sh 20" will set the range to 1 through 20.
 
 number=1
-input=-1
+input=0
 score=0
 
 if [ "$1" ];

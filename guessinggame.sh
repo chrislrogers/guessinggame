@@ -16,7 +16,7 @@ fi
 target=$(( $RANDOM % $number +1))
 
 while (( input != target )); do
-  echo "Enter number a number between 1 and" $number "(inclusive)"
+  echo "Enter a number between 1 and" $number "(inclusive)"
   ((score++))
   read -p ": " input
   if (( input < target )); then

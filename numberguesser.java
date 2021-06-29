@@ -30,5 +30,6 @@ public class numberguesser {
             }
         } while (input != target);
         System.out.printf("Correct the answer is: %d, you took %d attempt(s)\n", target, score);
+        keyboard.close();
     }
 }
